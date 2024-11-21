@@ -39,7 +39,7 @@ const Voting = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out flex items-center space-x-5">
               <div className="flex-shrink-0">
                 <img
-                  src={`http://localhost:5173/public/uploads/posts/${image.image_name}`}
+                  src={`https://pixpick.vercel.app/public/uploads/posts/${image.image_name}`}
                   alt="Voting Image"
                   className="w-24 h-24 object-cover rounded-xl"
                 />
