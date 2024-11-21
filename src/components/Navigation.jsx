@@ -29,25 +29,25 @@ function Navigation() {
         <div className="hidden bg-black sm:flex justify-between items-center px-5 py-3">
           <div className="flex items-center">
             <img src={logo} alt="no internet connection" width={50} />
-            <Link to={'/'}>
+            <Link to={'https://pixpick.vercel.app/'}>
               <h1 className="font-semibold mt-3 px-3 text-xl">PixPick</h1>
             </Link>
           </div>
 
           <div className="flex space-x-6">
-            <a className="text-green-500 hover:text-white transition" href="/contact">
+            <a className="text-green-500 hover:text-white transition" href="https://pixpick.vercel.app/contact">
               <FiPhone className="inline mr-2" /> Contact Us
             </a>
-            <a className="text-green-500 hover:text-white transition" href="/vote-page">
+            <a className="text-green-500 hover:text-white transition" href="https://pixpick.vercel.app/vote-page">
               <FaSignInAlt className="inline mr-2" /> Vote now
             </a>
-            <a className="text-green-500 hover:text-white transition" href="/about-us">
+            <a className="text-green-500 hover:text-white transition" href="https://pixpick.vercel.app/about-us">
               <FaInfoCircle className="inline mr-2" /> About Us
             </a>
             <a className="text-green-500 hover:text-white transition" href="https://bobo-portfolio.web.app" target="_blank">
               <FaExternalLinkAlt className="inline mr-2" /> Portfolio
             </a>
-            <a className="text-green-500 hover:text-white cursor-pointer select-none transition" onClick={handlelogout} href="/">
+            <a className="text-green-500 hover:text-white cursor-pointer select-none transition" onClick={handlelogout} href="https://pixpick.vercel.app/">
               <IoLogOutOutline className="inline mr-2" /> Logout
             </a>
             {
