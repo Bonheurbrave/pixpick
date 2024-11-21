@@ -33,7 +33,8 @@ const VotePage = () => {
   const handleLike = async (image) => {
     if (voted === "false") {
       await axios.put(`https://pixpick-api.onrender.com/voted-status/${email}`, { value: "true" });
-      axios.put(`https://pixpick-api.onrender.com/vote-image/${image.image_id}`, { message: "up" });
+      axios.put(`https://pixpick-api.onrender.com
+      /vote-image/${image.image_id}`, { message: "up" });
       navigate("/vote-page");
     } else {
       alert("You can't vote multiple times.");
@@ -96,7 +97,7 @@ const VotePage = () => {
           >
             {/* Image with Hover Brightness Effect */}
             <motion.img
-              src={`http://localhost:5173/public/uploads/posts/${image.image_name}`}
+              src={`https://pixpick.vercel.app/public/uploads/posts/${image.image_name}`}
               alt={image.owner_name}
               className="w-full h-64 object-cover rounded-t-2xl"
               whileHover={{ filter: "brightness(90%)" }}
