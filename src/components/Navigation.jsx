@@ -35,13 +35,13 @@ function Navigation() {
           </div>
 
           <div className="flex space-x-6">
-            <a className="text-green-500 hover:text-white transition" href="https://pixpick.vercel.app/contact">
+            <a className="text-green-500 hover:text-white transition" href="/contact">
               <FiPhone className="inline mr-2" /> Contact Us
             </a>
-            <a className="text-green-500 hover:text-white transition" href="https://pixpick.vercel.app/vote-page">
+            <a className="text-green-500 hover:text-white transition" href="/vote-page">
               <FaSignInAlt className="inline mr-2" /> Vote now
             </a>
-            <a className="text-green-500 hover:text-white transition" href="https://pixpick.vercel.app/about-us">
+            <a className="text-green-500 hover:text-white transition" href="/about-us">
               <FaInfoCircle className="inline mr-2" /> About Us
             </a>
             <a className="text-green-500 hover:text-white transition" href="https://bobo-portfolio.web.app" target="_blank">
