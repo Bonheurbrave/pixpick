@@ -65,15 +65,15 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="*" element={<ErrorPage />} />
-            <Route path="/" element={<Homepage />} />
-            <Route path="/contact" element={<ContactUspage />} />
+            <Route path="https://pixpick.vercel.app/" element={<Homepage />} />
+            <Route path="https://pixpick.vercel.app/contact" element={<ContactUspage />} />
             <Route
-              path="/register"
+              path="https://pixpick.vercel.app/register"
               element={<SignupPage togglePage={togglePage} />}
             />
-            <Route path="/about-us" element={<AboutUsPage />} />
-            <Route path="/vote-page" element={<VotePage />} />
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="https://pixpick.vercel.app/about-us" element={<AboutUsPage />} />
+            <Route path="https://pixpick.vercel.app/vote-page" element={<VotePage />} />
+            <Route path="https://pixpick.vercel.app/dashboard" element={<Dashboard />} />
           </Routes>
         </div>
       ) : (
